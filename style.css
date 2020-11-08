@@ -1,0 +1,116 @@
+body {
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: rgb(252, 236, 238);
+}
+
+h1, h2, h3, h4, h5
+.h1, .h2, .h3, .h4, .h5 {
+    color: #000; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p::first-letter {
+    color: purple;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color:pink;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+.menu {
+    border-bottom: 1px solid palevioletred;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+.caption2 {
+    text-align: center; 
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(133, 133, 133);
+}
+
+.name {
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    color: hotpink;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border: 3px rgb(247, 121, 184);
+    border-style: dotted;
+    background-color: rgb(255, 205, 214);
+}
+
+.text > h2 {
+    text-align: center;
+}
+
+.favorite {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.favorite > p {
+    text-align: left;
+}
+
+.img-fluid {
+    width: 40%;
+    height: auto;
+    display : block;
+    margin : auto;
+    
+}
+
+.paint {
+    background-color: rgb(255, 205, 214);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.paint > p {
+    font-style: normal;
+    text-align: left;
+}
+
+.caption {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .2em;
+    font-size: 12px;
+    padding: 7px 12px;
+    color:rgb(206, 0, 103);
+    display: inline-block;
+}
